@@ -38,6 +38,10 @@ export class TrackService {
         checkTrack(cs.ghlGuitar.hard, Track.GHLGuitarHard);
         checkTrack(cs.ghlGuitar.medium, Track.GHLGuitarMedium);
         checkTrack(cs.ghlGuitar.easy, Track.GHLGuitarEasy);
+        checkTrack(cs.bass.expert, Track.BassExpert);
+        checkTrack(cs.bass.hard, Track.BassHard);
+        checkTrack(cs.bass.medium, Track.BassMedium);
+        checkTrack(cs.bass.easy, Track.BassEasy);
         this.newTrack(longestTrack);
     }
 }
