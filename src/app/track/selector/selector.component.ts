@@ -28,6 +28,18 @@ const tracks = [{
 }, {
     model: Track.GHLGuitarEasy,
     view: 'Guitar Hero Live - Easy',
+}, {
+    model: Track.BassExpert,
+    view: 'Bass - Expert',
+}, {
+    model: Track.BassHard,
+    view: 'Bass - Hard',
+}, {
+    model: Track.BassMedium,
+    view: 'Bass - Medium',
+}, {
+    model: Track.BassEasy,
+    view: 'Bass - Easy',
 }];
 
 @Component({
