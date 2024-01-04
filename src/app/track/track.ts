@@ -32,6 +32,14 @@ export const getTrack = (cs: Model, track: Track): ModelTrack => {
         return cs.ghlGuitar.medium;
     case Track.GHLGuitarEasy:
         return cs.ghlGuitar.easy;
+    case Track.BassExpert:
+        return cs.bass.expert;
+    case Track.BassHard:
+        return cs.bass.hard;
+    case Track.BassMedium:
+        return cs.bass.medium;
+    case Track.BassEasy:
+        return cs.bass.easy;
     case Track.Events:
         return cs.events;
     case Track.Vocals:
