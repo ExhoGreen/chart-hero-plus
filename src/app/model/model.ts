@@ -14,6 +14,12 @@ export interface Model {
         medium: ModelTrack;
         easy: ModelTrack;
     };
+    doubleBass: {
+        expert: ModelTrack;
+        hard: ModelTrack;
+        medium: ModelTrack;
+        easy: ModelTrack;
+    };
     events: ModelTrack;
     vocals: ModelTrack;
     venue: ModelTrack;
