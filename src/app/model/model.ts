@@ -14,7 +14,7 @@ export interface Model {
         medium: ModelTrack;
         easy: ModelTrack;
     };
-    doubleBass: {
+    bass: {
         expert: ModelTrack;
         hard: ModelTrack;
         medium: ModelTrack;
